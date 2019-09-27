@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KitcheSingh</string>
+    <array name="veg_nonveg">
+        <item>Veg</item>
+        <item>Non-Veg</item>
+    </array>
+</resources>

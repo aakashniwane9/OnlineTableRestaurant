@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenerateFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/generatebill_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/fragment_generate_costtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost:"
+            android:layout_marginStart="20dp"
+            android:textColor="#ff0000"
+            android:layout_marginEnd="20dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/fragment_generate_total"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/fragment_generate_costtext"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="0"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
